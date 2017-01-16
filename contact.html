@@ -1,0 +1,55 @@
+---
+layout: contact
+title: Contact
+permalink: /contact/
+---
+
+<!-- <div id="contactwrap"></div> -->
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Get In Touch</h4>
+            <div class="hline"></div>
+               <p>&nbsp; <!-- {{ site.about }} --></p>
+                <form role="form" id="main-contact-form" name="main-contact-form" method="post" action="https://formspree.io/loldja@gmail.com">
+                  <div class="form-group">
+                    <label for="InputName1">Your Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" name="yourname">
+                  </div>
+                  <div class="form-group">
+                    <label for="InputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="InputSubject1">Subject</label>
+                    <input type="text" class="form-control" id="exampleInputSubject1" name="subject">
+                  </div>
+                  <div class="form-group">
+                    <label for="message1">Message</label>
+                    <textarea class="form-control" id="message1" rows="3" name="body"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-theme">Submit</button>
+                </form>
+        </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Resume &amp; Bio</h4>
+            <div class="hline"></div>
+            <p>Available upon request.</p>
+            <div class="spacing"></div>
+            <h4>Address</h4>
+            <div class="hline"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    Email: {{ site.email }}<br/>
+                    Tel: {{ site.tel }}
+                </p>
+                <p>Available for full time, contracting, public speaking, and consulting. Inquiries welcome.</p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

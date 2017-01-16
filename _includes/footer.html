@@ -1,0 +1,58 @@
+<div id="metafooterwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <h4>Subscribe</h4>
+            <div class="hline"></div>
+                <p>
+                    <p class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+                </p>
+            <div class="spacing"></div>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-lg-6">
+                <h4>Latest Blog Posts</h4>
+                <div class="hline"></div>
+                {% for post in site.categories['blog'] limit:4 %} 
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%-d %b %Y" }}  &mdash; {{ post.title }}</a></p>
+                {% endfor %} 
+            </div>
+            <div class="col-lg-6">
+                <h4>Popular Tags</h4>
+                <div class="hline"></div>
+                    <p>
+                    {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" or category.first == "question" %}
+                            <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>             
+                        {% endunless %}{% endfor %}
+                    </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/metafooterwrap -->
+
+
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h4>Find Me</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

@@ -1,0 +1,49 @@
+### GENERAL SETTINGS ###
+
+
+# Site settings
+title: Lauren Oldja, MSPH
+description: "Data Science"
+analytics: UA-79990487-1 #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://laurenoldja.net"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#92A8D1" #"#F70031" 
+  primary_rgb: "146,168,209" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#696667" #"#33004D"
+  link: "#f7786b"
+  link_hover: "#776A5F"
+  footer_heading: "#F7CAC9"
+  footer_content: "#CDB8A0"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: github
+    url: http://www.github.com/loldja
+  - title: linkedin
+    url: http://www.linkedin.com/in/loldja
+  - title: twitter
+    url: http://www.twitter.com/urbanplans
+  - title: angellist
+    url: https://angel.co/lauren-oldja
+
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - Metis
+    - 79 Madison Av, Floor 2
+    - 10016, New York,
+    - United States.
+email: loldja-at-gmail.com
+tel: +1 727 2378817
+

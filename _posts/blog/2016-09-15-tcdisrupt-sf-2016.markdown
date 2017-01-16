@@ -1,0 +1,79 @@
+---
+layout: post
+title: "On Startups and Founder Culture"
+date: 2016-09-15 15:53:42
+author: "Lauren Oldja"
+categories:
+- blog
+- tcdisrupt
+img: tcdisrupt-2016-sf.jpg
+thumb: tc-disrupt-logo.gif
+---
+
+I spent the last three days drinking the <strike>kool-aid</strike> LaCroix at [TechCrunch Disrupt SF](https://techcrunch.com/event-info/disrupt-sf-2016/), Silicon Valley's iconic annual gathering of entrepreneurs, hackers, investors, and thought leaders in tech. I feel invincible.<!--more-->
+
+Honestly, going in I didn't know what to expect. Although a surprising number of my friends had never heard of the conference (really?), I've followed news from Disrupt casually in years past. I also have enough experience with "those startup types" to know how comically insular Silicon Valley can be (i.e. another fro-yo delivery app?). I have to say: <b>I was wrong</b>. Time and again, this year's organizers made it clear to even casual observers that this year would be a different type of TC Disrupt.
+
+I wasn't the only one who noticed:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Good News at TechCrunch Disrupt: Diversity Arrives! (Just in time for the bots to take over) <a href="https://t.co/fkvQ0DHR5U">https://t.co/fkvQ0DHR5U</a> / by yours @ <a href="https://twitter.com/hashtag/TCDisrupt?src=hash">#TCDisrupt</a></p>&mdash; Moya Watson (@moyalynne) <a href="https://twitter.com/moyalynne/status/775559666122108928">September 13, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One thing I can say for sure about these <a href="https://twitter.com/hashtag/TCDisrupt?src=hash">#TCDisrupt</a> moderators: They aren&#39;t shying away from tough questions. Diversity, security, Snowden.</p>&mdash; Natalie DiBlasio (@ndiblasio) <a href="https://twitter.com/ndiblasio/status/775760806629605376">September 13, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">TechCrunch Disrupt shows an industry grappling with diversity <a href="https://t.co/ZXgX6Bk4F3">https://t.co/ZXgX6Bk4F3</a> by <a href="https://twitter.com/jfloum">@jfloum</a> <a href="https://twitter.com/hashtag/TCDisrupt?src=hash">#TCDisrupt</a></p>&mdash; Tech Chronicle (@techchronicle) <a href="https://twitter.com/techchronicle/status/775849081679687680">September 14, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ Time and again, the organizers amplified diverse voices and those that ascribe to the idea that the talent pipeline in tech is too narrow and too inefficient: 
+
+* "Father of the self-driving car" Sebastian Thrun spoke about his move into online education through founding [Udacity](https://www.udacity.com/), an online educational platform offering 6-month technical "nanodegrees" to teach motivated non-traditional applicants machine learning or how to build a self-driving car.  
+* Speaker Christina Sass, COO at [Andela](https://andela.com/), a competitive for-profit program that identifies and trains technical talent in Nigeria and Kenya and links those developers to remote employment opportunities in the US.
+* Founder Morgan DeBaun shared that this would be her first TC Disrupt, since she had unsuccessfully applied for a scholarship two years prior when she first started [Blavity](http://preview.blavity.com/), and later discussed her media platform's strategy in covering Black Lives Matter.
+* CEO Apoorva Mehta announced [Instacart](https://www.instacart.com/) would be releasing its first diversity report shortly.
+* [Salesforce](https://www.salesforce.com/) CEO Marc Benioff announced the creation of a new position, the Chief Equality Officer. He spoke at length about corporate responsibility towards making workplaces inclusive, specifically citing divestment from Georgia, a tactic that succeeded, and North Carolina for discrimination against LGBTQ bathroom rights.
+
+Moderators asked hard questions and, where necessary, didn't let speakers politely demur:
+
+* TC's Josh Constine asked Facebook VP/ Head of News Feed Adam Moseeri what he is doing to reduce addiction, the move from human to AI-driven moderation on Facebook's Trending, and content censorship. Watch it and squirm [here](https://techcrunch.com/video/hows-your-news-feed-facebooks-adam-mosseri-speaks/57d9862e1c689950401c9c1c/).
+* TC's Matt Burns turned US Secretary of Defense Ashton Carter's statement on government's dependency on secure networks and plug for talent on its head by immediately asking, "so if the US Government, the Pentagon, Department of Defense, is urging for strong encryption, shouldn't that be a fundamental right for Americans to also have access to the strongest possible encryption?" The Secretary initially agreed, but with the caveat that there is 'not one technical solution' and the solution is 'unlikely to come from government'. Burns further pushed on FBI's known "hoarding" of back doors such as zero-day exploits instead of sharing them with companies to have them fixed, and to raise it again in order to point out that Carter's own staff carry and use iPhones, which are as vulnerable as those used by the general public.
+* US Chief Technical Officer Megan Smith acknowledged public interest in open data on police violence, public confusion over why this isn't better available, and steps the US government is taking to address this.
+
+Even startups got the memo:
+
+* Ellen Pao's newest venture, [Project Include](http://projectinclude.org/), brings data front and center to CEOs who want to understand how diversity helps their bottom-line.
+* [LUCY](http://startwithlucy.com/), TC Disrupt's day one Startup Battlefield Wildcard Winner, supports new and expectant parents at companies within its network to retain them in the workforce.
+* [Oakland Technology Exchange West](http://www.otxwest.org/) bridges the digital divide in the Bay Area's own backyard, providing low-income families and schools with computers
+
+![The crowd at TC Disrupt SF](/assets/img/blog/tcd3.jpg)
+
+---
+
+That's not to say that it was all the hard work of fixing systemic societal problems. And that is because...
+
+TC Disrupt is also about cool stuff
+===
+
+It'd be hard to give a run down of all of the apps, toys, innovations, and great conversations I had with fellow participants. Instead, here's a list of some of my favorite standouts:
+
+* [Mediamonks](https://www.mediamonks.com/) did a great job of hacking together a Universal Studios style VR immersion for the new Prius in 8 weeks. 
+* I got a free Google Cardboard! Thank you to Startup Battlefield contender and 360-degree video app [Spincle](https://techcrunch.com/2016/09/13/spincle-allows-everybody-to-shoot-vr-content-on-their-smartphones/)!
+* UN Foundation's [Nothing But Nets](http://nothingbutnets.net/) brings to life the story of Amisa, a girl refugee in Tanzania, to build empathy and awareness of their anti-malaria mission. Watch the [trailer](https://www.youtube.com/watch?v=JaDsQer8XzA) on your favorite VR headset; a longer experience is coming soon.
+* I am obsessed with this Japanese [bread recognition engine](http://www.bb-brain.co.jp/) for bakeries. They are looking for US partners.
+* There were an number of new dating apps, but [MePlusOne](http://meplusoneapp.com/) stood out from the others by focusing on activities and events you can do socially. Can't wait to load it up on my iPad! (Android version coming soon)
+* I was surprisingly moved by my VR painting experience. Here's a screencap in mere 2D. It doesn't look like much, but creating and interacting with something intangible was...beautiful. And a little like SCUBA diving, now that I think about it.
+
+![4D painting in 2D](/assets/img/blog/vr-painting.png)
+
+
+---
+
+A big shout out to [Women Who Code](https://www.womenwhocode.com) for providing me with a free ticket via their national newsletter lottery. If you are not already a member, check above or [meetup.com](http://www.meetup.com) for your nearest local chapter and get involved with this great organization.
+
+Presumably this "marketing partner" ticket was given by Tech Crunch to Women Who Code in order to attract more emerging female talent to this event. So also, THANK YOU Tech Crunch. I wouldn't have gone without it. And since the tickets are $3K, I know that if I want to attend next year, I need to start working on getting my next big idea off the ground ASAP!
+
+I leave you with this animated GIF I made of me playing Fruit Ninja at the HP booth. Just imagine I am holding two katana, and that I actually look awesome and not ridiculous.
+
+![I am a VR hero](/assets/img/blog/vr.gif)
+
+Until next year, San Francisco...!

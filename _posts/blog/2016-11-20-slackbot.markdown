@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Make a Slack Bot"
+date: 2016-11-20 18:40:46
+author: "Lauren Oldja"
+categories:
+- blog
+- bots
+img: slackbot-chat-bot.png
+thumb: metis-logo.gif
+---
+
+[Slack](https://slack.com/) is a app for workplace collaboration, but it wouldn't be a start-up darling if it were simply a glorified chatroom. The power of Slack is its ability to seamlessly integrate other services and bots. Even on a Slack free plan, you can have unlimited bots! So let's harness this power and make bot.<!--more-->
+
+My goal was to make a very simple proof of concept which could call a secondary API in addition to running on the [Slack API](http://api.slack.com). Since we have a #lunch channel in our Slack where people collaborate on group lunch outings, I decided to make a bot that could make helpful suggestions of new lunch places for our group to try. For this I called the Yelp API and allowed it to generate a list of all places within 450 meters (approx. 5 minute walk) of Metis. From there the bot returns a random result from the list of all relevant results. 
+
+## Getting Started
+
+In order to set up the Slack permissions, I found this [Full Stack Python tutorial](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html) useful. First, it's good practice to make a virtual environment. If you're working with Anaconda, their documentation on [environment management](http://conda.pydata.org/docs/py2or3.html) is excellent. First type, ```conda create --name starterbot python=3``` then switch into the environment with ```source activate starterbot```.  
+
+Once you're in your environment, pip install the necessary packages, in this case ```pip install slackclient``` and ```pip install yelp```. Switching over to a browser, check out the [Slack API Bot Users](https://api.slack.com/bot-users) page. At the time of writing, you want to look for the first paragraph under "Custom bot users" which reads:  
+
+>Every team has the ability to create their own custom bot users that they can use on their team. They do this by going to their team's settings page and <u>creating a new bot user</u>.  
+
+The underlined text will be a link specific to the team in which you are logged in, presuming you have the proper privileges. Set up the integration direct on the Slack API website's bot page, and add your API token to environmental variables using your terminal. 
+
+While we're at it, let's make sure we've also registered with the Yelp Search API. When I'm logged into Yelp, my Developer keys are located on the [Manage API](https://www.yelp.com/developers/v2/manage_api_keys) page. Save these in a text file accessible to your script. I put mine in a file called <b>config_secret.json</b>, and it takes the following format:  
+
+>{  
+    "consumer_key": "```copy/paste here```",  
+    "consumer_secret": "```copy/paste here```",  
+    "token": "```copy/paste here```",  
+    "token_secret": "```copy/paste here```"   
+}
+
+<b>PRO TIP:</b> You'll want to give your bot a trial run, especially when you're first starting out. I made a private channel for the bot to sit in while I tested it. It's not currently possible to change a private channel to a public one in Slack, so once you have your code working, you'll have to re-set up your scripts in the public channel.
+
+
+## Building Functionality
+
+Now you're ready to code your bot! I wrote my script as the demo part of a short presentation on bots more generally, including both prior art Twitter bots to inspire as well as where to start in order to ensure your bots are ethical. You can find my code, as well as the slides for that presentation, on [Github](http://www.github.com/loldja/ds9_investigations).
+
+
+## Hosting the Script
+
+Your bot only works so long as your script is running; this makes running a bot off of your personal laptop highly impractical. So we need a host!
+
+One promising avenue for hosting your script is the free host tools at [PythonAnywhere](http://www.pythonanywhere.com). Personally, I wasn't able to get this to work, but I'd [love to hear from you](http://www.laurenoldja.net/contact) if you get it functioning. Sign up for an account, and open up the Files tab. Here you can upload your .py script (Note: not jupyter notebook) as well as your secret credential JSON files for API authetication.  
+
+From here you can open up a new Bash console under the Consoles tab. You can tell which version of Python is installed by typing ```python --version```. When I did this, it showed that Python 2.7 was the default, so I made a virtual environment to run Python 3.5 using ```mkvirtualenv --python=python3.5 myvirtualenv```. You'll have to [pip install your dependencies](https://help.pythonanywhere.com/pages/InstallingNewModules/) using ```pip3.5 install yelp``` and ```pip3.5 install slackclient```. Then call your script. Again, the same script that ran and passed fine on my laptop (i.e. "StarterBot connected and running!") also ran without error from PythonAnywhere's bash, but returned "Connection failed. Invalid Slack token or bot ID?". I'd like to continue to play with this and debug it (I imagine it's something silly and simple like a blocked port), since being able to host for free would be great.
+
+Instead, I decided to SSH into my Amazon EC2 micro instance and host the script from there. Caution-- this may incur charges! In order prevent your instance from timing out when you disconnect from the SSH, you can run the script inside of a [screen](http://www.ibm.com/developerworks/aix/library/au-gnu_screen/).
+
+...And that's as far as I've gotten for now. Happy bot building!
+
+
+
