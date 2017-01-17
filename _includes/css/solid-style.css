@@ -213,6 +213,11 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
+
+.hline-light {
+	border-bottom: 2px solid {{ site.colors.primary }};
+}
+
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
@@ -287,7 +292,7 @@ a:focus {
 	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
-	text-align: center
+	text-align: center;
 }
 
 #portfoliowrap h3 {
@@ -300,11 +305,13 @@ a:focus {
 	display:block;
 }
 
+.recentitems div {
+	min-width: 33.34%;
+}
 
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
-
 
 .tpl6 h3
 {
