@@ -54,11 +54,8 @@ By sorting the line name first, you avoid the problem of creating two or more un
 {% highlight python %}
 df['ENTRY_DIFF']=df.groupby(['STATID','UNIT','SCP'],as_index=False)['ENTRIES'].transform(pd.Series.diff)['ENTRIES']
 {% endhighlight %}
-<<<<<<< HEAD
+
 Since the numbers are in the millions and generally keep climbing, we can be fairly confident in making this assumption. We need to take a row-by-row difference in order to get entry counts for the intervals.
-=======
-Since the numbers are in the millions and generally keep climbing, we can be fairly confident in making this assumption. We need to take a row-byrow difference in order to get entry counts for the intervals.
->>>>>>> 20915954873b969eef46936624ca1d92afc43afc
 
 ### Make hourly bins
 {% highlight python %}
