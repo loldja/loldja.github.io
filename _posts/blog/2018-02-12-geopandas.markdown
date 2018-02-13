@@ -6,7 +6,7 @@ author: "Lauren Oldja"
 categories:
 - blog
 - geographic-data-science
-img: geopandas-sm.png
+img: geopandas.png
 thumb: metis-logo.gif
 ---
 Get started with open-source spatial analysis in Python can be tricky. For one, there’s many possible libraries from which to choose, of varying and overlapping functionality but not enough cross-compatibility. Piecemeal and sparse documentation also remains a challenge, and most top blog posts for common questions on Google I’ve found to be using older code conventions.<!--more-->
@@ -15,5 +15,4 @@ This two-part article aims to get you started in an geodata-stack that is modern
 
 ---
 
-* Read [Part One on Medium](https://medium.com/@loldja/spatial-libraries-in-python-3-a-working-set-up-for-windows-59ba80407528)
-* Read [Part Two on Medium](https://medium.com/@loldja/reading-shapefile-zips-from-a-url-in-python-3-93ea8d727856)
+Continue reading [Part One on Medium](https://medium.com/@loldja/spatial-libraries-in-python-3-a-working-set-up-for-windows-59ba80407528), or read [Part Two on Medium](https://medium.com/@loldja/reading-shapefile-zips-from-a-url-in-python-3-93ea8d727856).
